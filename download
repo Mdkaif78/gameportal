@@ -1,2 +1,4 @@
-/vendor/
-/.env
+Options -Indexes
+<FilesMatch "^(\.env|\.game-portal\.env|\.gitignore|composer\.(json|lock)|schema\.sql|README\.md)$">
+  Require all denied
+</FilesMatch>
