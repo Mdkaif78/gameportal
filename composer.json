@@ -1,0 +1,5 @@
+{
+  "name": "student/game-portal",
+  "description": "Secure PHP and MySQL video game catalogue",
+  "require": { "php": ">=8.1", "ext-mysqli": "*", "twig/twig": "^3.0" }
+}
